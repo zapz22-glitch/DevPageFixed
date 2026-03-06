@@ -1,11 +1,1 @@
-const observer = new IntersectionObserver((entries)=>{
-entries.forEach(entry=>{
-if(entry.isIntersecting){
-entry.target.classList.add("visible")
-}
-})
-})
-
-document.querySelectorAll(".card").forEach(card=>{
-observer.observe(card)
-})
+// No JavaScript needed for these animations, CSS handles it all!
